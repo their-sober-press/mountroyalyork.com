@@ -1,188 +1,227 @@
 <html>
-  <head>
-    <title>Mount Royal-York AA Group</title>
-    <link rel="icon" href="logo_circle200-100x100.png" sizes="32x32" />
-    <link rel="icon" href="logo_circle200.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="logo_circle200.png" />
-    <meta name="msapplication-TileImage" content="https://www.aatoronto.org/wp-content/uploads/2016/05/logo_circle200.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-      :root { --link-color: rgba(0, 123, 167)}
-      body { font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 1.6; margin: 0; padding: 0; }
-      .container {padding: 0 20px;}
-      section { padding: 24px 20px; border-top: 1px solid rgba(167,167,167, 0.5); }
-      section:first-child { border-top:none; }
-      h1, h2, h3, h4, h5, h6 { font-family: 'Gotu', sans-serif; line-height: 1.2; }
-      h3 { margin: 1.5em 0 0; }
-      a { color: var(--link-color); text-decoration: none; }
-      a:hover { text-decoration: underline; }
-      strong { font-weight: 700; }
-      .button {
-        --link-color: rgb(0, 167, 123);
-        display: inline-block;
-        padding: 0.5em 1em;
-        margin: 0.5em 0;
-        font-size: 1.111em;
-        line-height: 1;
-        text-decoration: none;
-        border-radius: 4px;
-        color: white;
-        background-color: var(--link-color);
-      }
-      .button.large { font-size: 1.33em; }
-      .button:hover { text-decoration: none; }
-      .other-meetings { padding: 12px 0; border-top: 1px dashed rgba(167,167,167, 0.5); }
-      .other-meetings:first-child { border-top: none; padding-top: 0; }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <section id="intro">
-        <h1>Mount Royal-York AA&nbsp;Group</h1>
-        <p>
-          Welcome to the Mount Royal York Group of Alcoholics Anonymous.
-        </p>
-        <p>
-          We have an <strong>open</strong> meeting on <strong>Tuesdays</strong> at <strong>6:00pm</strong> ET.
-          <br/>
-          We have a <strong>closed</strong> meeting on <strong>Thursdays</strong> at <strong>6:00pm</strong> ET.
-        </p>
-        <p>
-          ⚠️ Due to the COVID-19 pandemic, we are currently meeting remotely.
-        </p>
-        <p>
-          <a class="button large" href="https://meeting.mountroyalyork.com/">
-            Join the virtual meeting
-          </a>
-        </p>
-      </section>
-      <section id="meeting-instructions">
-        <h2>Instructions for Online&nbsp;Meeting</h2>
-        <p>
-          Our meetings are hosted at <a href="https://meeting.mountroyalyork.com/">https://meeting.mountroyalyork.com</a> using Google Meet.
-        </p>
-        <p>
-          💻 On a computer, you will not need to install anything.
-          <br/>
-          📱 On a smart phone, you will be directed to install the Google Meet app if you do not already have it.
-        </p>
-        <p>
-          The virtual meeting room will open <strong>fifteen minutes</strong> prior to the meeting’s start time.
-          <br/>
-          You are welcome to stick around after the meeting for fellowship.
-        </p>
-        <p>
-          <a class="button large" href="https://meeting.mountroyalyork.com/">
-            Join the virtual meeting
-          </a>
-        </p>
-        <p>
-          <strong>Please:</strong>
-          <br/>
-          🎧 Wear headphones to eliminate echo.
-          <br/>
-          🔇 Mute yourself when you are not talking.
-        </p>
-      </section>
-      <section id="literature">
-        <h2>Literature for our meetings</h2>
-        <h3>Readings for all meetings</h3>
-        <ul>
-          <li><a href="files/how_it_works.pdf">
+
+<head>
+  <title>Mount Royal-York AA Group</title>
+  <link rel="icon" href="logo_circle200-100x100.png" sizes="32x32" />
+  <link rel="icon" href="logo_circle200.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="logo_circle200.png" />
+  <meta name="msapplication-TileImage"
+    content="https://www.aatoronto.org/wp-content/uploads/2016/05/logo_circle200.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Source+Sans+Pro:wght@400;700&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --link-color: rgba(0, 123, 167)
+    }
+
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 0 20px;
+    }
+
+    section {
+      padding: 24px 20px;
+      border-top: 1px solid rgba(167, 167, 167, 0.5);
+    }
+
+    section:first-child {
+      border-top: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Gotu', sans-serif;
+      line-height: 1.2;
+    }
+
+    h3 {
+      margin: 1.5em 0 0;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    strong,
+    kbd {
+      font-weight: 700;
+    }
+
+    .button {
+      --link-color: rgb(0, 167, 123);
+      display: inline-block;
+      padding: 0.5em 1em;
+      margin: 0.5em 0;
+      font-size: 1.111em;
+      line-height: 1;
+      text-decoration: none;
+      border-radius: 4px;
+      color: white;
+      background-color: var(--link-color);
+    }
+
+    .button.large {
+      font-size: 1.33em;
+    }
+
+    .button:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <section id="intro">
+      <h1>Mount Royal-York AA&nbsp;Group</h1>
+      <p>
+        Welcome to the Mount Royal York Group of Alcoholics Anonymous.
+      </p>
+      <p>
+        We have an <strong>open</strong> meeting on <strong>Tuesdays</strong> at <strong>6:00pm</strong> ET.
+        <br />
+        We have a <strong>closed</strong> meeting on <strong>Thursdays</strong> at <strong>6:00pm</strong> ET.
+      </p>
+      <p>
+        ⚠️ Due to the COVID-19 pandemic, we are currently meeting remotely.
+      </p>
+      <p>
+        <a class="button large" href="https://meeting.mountroyalyork.com/">
+          Join the virtual meeting
+        </a>
+        &emsp;<a href="#join-by-phone">
+          Join by phone
+        </a>
+      </p>
+    </section>
+    <section id="meeting-instructions">
+      <h2>Instructions for Online&nbsp;Meeting</h2>
+      <p>
+        Our meetings are hosted at <a href="https://meeting.mountroyalyork.com/">https://meeting.mountroyalyork.com</a>
+        using Google Meet.
+      </p>
+      <p>
+        💻 On a computer, you will not need to install anything.
+        <br />
+        📱 On a smart phone, you will be directed to install the Google Meet app if you do not already have it.
+      </p>
+      <p>
+        The virtual meeting room will open <strong>fifteen minutes</strong> prior to the meeting’s start time.
+        <br />
+        You are welcome to stick around after the meeting for fellowship.
+      </p>
+      <p>
+        <a class="button large" href="https://meeting.mountroyalyork.com/">
+          Join the virtual meeting
+        </a>
+      </p>
+      <p>
+        <strong>Please:</strong>
+        <br />
+        🎧 Wear headphones to eliminate echo.
+        <br />
+        🔇 Mute yourself when you are not talking.
+        <br />
+        🚭 Do not smoke or vape on camera.
+        <br />
+        🔕 Do not use the chat feature except to volunteer to share or ask for tech support.
+      </p>
+      <h3 id="join-by-phone">Join by phone</h3>
+      <p>
+        To dial into the meeting by phone, call:
+      </p>
+      <p>
+        🍁 <a href="tel:+1 226-213-8281">+1 226-213-8281</a> (Canada)
+        <br />
+        🗽 <a href="tel:+1 347-450-6962">+1 347-450-6962</a> (USA)
+      </p>
+      <p>
+        When prompted, enter the PIN: <kbd>792 197 679 7949#</kbd>
+      </p>
+      <p>
+        <a href="https://meet.google.com/tel/rfh-aypd-ybu">Additional international call in numbers available.</a>
+      </p>
+    </section>
+    <section id="literature">
+      <h2>Literature for our meetings</h2>
+      <h3>Readings for all meetings</h3>
+      <ul>
+        <li><a href="files/how_it_works.pdf">
             How It Works (The Twelve Steps)
           </a></li>
-          <li><a href="files/the_promises.pdf">
+        <li><a href="files/the_promises.pdf">
             The Promises
           </a></li>
-          <li><a href="files/the_twelve_traditions.pdf">
+        <li><a href="files/the_twelve_traditions.pdf">
             The Twelve Traditions
           </a></li>
-          <li><a href="files/what_is_aa.pdf">
+        <li><a href="files/what_is_aa.pdf">
             What is AA
           </a></li>
-          <li><a href="files/yesterday_today_and_tomorrow.pdf">
+        <li><a href="files/yesterday_today_and_tomorrow.pdf">
             Yesterday, Today, and Tomorrow
           </a></li>
-        </ul>
+      </ul>
 
-        <h3>Meeting Scripts</h3>
-        <ul>
-          <li><a href="files/mt_royal_tuesday_script.docx">
+      <h3>Meeting Scripts</h3>
+      <ul>
+        <li><a href="files/mt_royal_tuesday_script.docx">
             Tuesday Open Speaker Meeting
           </a></li>
-          <li><a href="files/mt_royal_thursday_script.docx">
+        <li><a href="files/mt_royal_thursday_script.docx">
             Thursday Close Meeting
           </a></li>
-        </ul>
+      </ul>
 
-        <h3>Literature for Thursday meeting</h3>
-        <ul>
-          <li><a href="https://www.aa.org/pages/en_US/alcoholics-anonymous">
-            Alcoholics Anonymous (Big Book) 
+      <h3>Literature for Thursday meeting</h3>
+      <ul>
+        <li><a href="https://www.aa.org/pages/en_US/alcoholics-anonymous">
+            Alcoholics Anonymous (Big Book)
           </a></li>
-          <li><a href="https://www.aa.org/pages/en_US/daily-reflection">
+        <li><a href="https://www.aa.org/pages/en_US/daily-reflection">
             The Daily Reflections
           </a></li>
-        </ul>
-      </section>
-      <section id="other-meetings">
-        <h2>Other Online Meetings</h2>
-        <div class="specific-meetings">
-          <div class="other-meetings">
-            <h3>Corktown</h3>
-            <p>
-              Zoom meeting ID:
-              <a href="https://us04web.zoom.us/j/8279885677">827 988 5677</a>
-            </p>
-            <ul>
-              <li>
-                Mondays at 7:30pm ET
-              </li>
-            </ul>
-            <p>
-              <a class="button" href="https://us04web.zoom.us/j/8279885677">
-                Join the Corktown meeting
-              </a>
-            </p>
-          </div>
-          <div class="other-meetings">
-            <h3>GTA AA Zoom Meeting</h3>
-            <p>
-              Zoom meeting ID:
-              <a href="https://zoom.us/j/5587538631">558 753 8631</a>
-            </p>
-            <ul>
-              <li>
-                Saturdays at 11:00am ET
-              </li>
-              <li>
-                Sundays at 11:00am ET
-              </li>
-            </ul>
-            <p>
-              <a class="button" href="https://zoom.us/j/5587538631">
-                Join the GTA meeting
-              </a>
-            </p>
-          </div>
-        </div>
-        <div class="other-meetings">
-          <h3>Meeting Directories</h3>
-          <ul>
-            <li>
-              <a href="http://aa-intergroup.org/directory.php">
-                Alcoholics Anonymouse Online Intergroup Meeting Directory
-              </a>
-            </li>
-            <li>
-              <a href="https://intherooms.com/">
-                In The Rooms: 130 weekly global online meetings
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </div>
-  </body>
+      </ul>
+    </section>
+    <section id="other-meetings">
+      <h2>Other Online Meetings</h2>
+      <ul>
+        <li>
+          <a href="https://www.aatoronto.org/meetings/?tsml-day=any&tsml-query=online">
+            GTA Online Meetings
+          </a>
+        </li>
+        <li>
+          <a href="http://aa-intergroup.org/directory.php">
+            Alcoholics Anonymous Online Intergroup Meeting Directory
+          </a>
+        </li>
+        <li>
+          <a href="https://intherooms.com/">
+            In The Rooms: 130 weekly global online meetings
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+
 </html>
