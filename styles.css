@@ -1,0 +1,86 @@
+:root {
+  --link-color: rgba(0, 123, 167)
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+section {
+  padding: 24px 20px;
+  border-top: 1px solid rgba(167, 167, 167, 0.5);
+}
+
+section:first-child {
+  border-top: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Gotu', sans-serif;
+  line-height: 1.2;
+}
+
+h3 {
+  margin: 1.5em 0 0;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  border-left-width: 2px;
+  border-left-color: black;
+  border-left-style: solid;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+strong,
+kbd {
+  font-weight: 700;
+}
+
+.button {
+  --link-color: rgb(0, 167, 123);
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  font-size: 1.111em;
+  line-height: 1;
+  text-decoration: none;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--link-color);
+}
+
+.button.large {
+  font-size: 1.33em;
+}
+
+.button:hover {
+  text-decoration: none;
+}
