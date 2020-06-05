@@ -33,7 +33,7 @@ h6 {
   line-height: 1.2;
 }
 
-h3 {
+h3, h4 {
   margin: 1.5em 0 0;
 }
 
@@ -59,7 +59,6 @@ blockquote {
   font-style: italic;
 }
 
-strong,
 kbd {
   font-weight: 700;
 }
@@ -83,4 +82,21 @@ kbd {
 
 .button:hover {
   text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1em;
+  border-bottom: 1px solid rgba(167, 167, 167, 0.5)
+}
+
+table caption {
+  padding: 1em;
+  font-size: 14px;
+  caption-side: bottom;
+  text-align: left;
+  font-style: italic;
 }
