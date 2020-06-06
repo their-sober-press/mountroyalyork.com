@@ -100,3 +100,23 @@ table caption {
   text-align: left;
   font-style: italic;
 }
+
+@media (max-width: 500px) {
+  td:first-child, table caption {
+    padding-left: 0;
+  }
+
+  td:first-child::after {
+    font-size: 14px;
+    content: "6:00pm\00a0 ET";
+    display: block;
+  }
+
+  td:last-child, table caption {
+    padding-right: 0;
+  }
+
+  td:nth-child(2) {
+    display: none;
+  }
+}
