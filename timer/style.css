@@ -5,12 +5,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #readout {
     font-size: 20em;
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
 
